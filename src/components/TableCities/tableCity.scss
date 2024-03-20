@@ -1,0 +1,9 @@
+.cities__items {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--color-white);
+}
+
+.cities__item {
+  width: 200px;
+}

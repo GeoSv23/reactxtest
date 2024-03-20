@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Standard CT Stencil';
+    src: url('/fonts/StandardStencil.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tele2 DisplaySerif';
+    
+    src: url('/fonts/tele2_displayserif-bold.woff') format('woff');
+
+    font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Tele2 Text';
+    src: url('./fonts/Tele2TextSans-Regular-short__W.woff') format('woff');
+
+    font-weight: 400;    
+}
+
+@font-face {
+    font-family: 'Tele2 Text';
+    src: url('./fonts/Tele2TextSans-Regular-short__W.woff') format('woff');
+
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    /*colors*/
+
+    --color-background: #1F2229;
+    --color-white: #fff;
+    --color-accent: #48CCFD;
+    /* --color-5: #1F2229; */
+    --color-border: #383D4A;
+    /* --color-7: #8F9399;
+    --color-8: #39404C; */
+
+    /*fonts*/
+
+    --main-font-family: 'Tele2 Text';
+    --h2-font-family: 'Standard CT Stencil';
+    --h3-font-family: 'Tele2 DisplaySerif';
+    --btn-font-family: 'Tele2 Text';
+
+    --main-text-font-size-desktop: 20px;
+    --main-text-font-size-mobile: 18px;
+    --h2-font-size-desktop: 68px;
+    --h2-font-size-mobile: 36px;
+    --h3-font-size-desktop: 40px;
+    --h3-font-size-mobile: 24px;
+    --btn-font-size: 16px;
+    --font-size-small: 13px;
+    --font-size-answer: 14px;
+
+    --main-font-weight: 400;
+    --h2-font-weight: 700;
+    --h3-font-weight: 700;
+    --btn-font-weight: 700;
+
+    --main-line-height-desktop: 30px;
+    --main-line-height-mobile: 27px;
+    --h2-line-height-desktop: 68px;
+    --h2-line-height-mobile: 36px;
+    --h3-line-height-desktop: 52px;
+    --h3-line-height-mobile: 33.6px;
+    --answer-line-height: 19.32px;
+
+    --main-text-color: var(--color-2);
+
+
+    --btn-height: 48px;
+    --btn-color: var(--color-2);
+    --btn-text-color: var(--color-5);
+    --btn-border-radius: 48px;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}

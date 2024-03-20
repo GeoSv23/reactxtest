@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-background);
+  color: var(--color-white);
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: 60px;
+}
+
+.current-city {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+body {
+  background-color: var(--color-background);
+}

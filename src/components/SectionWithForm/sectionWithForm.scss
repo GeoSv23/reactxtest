@@ -1,0 +1,27 @@
+.instruction-items {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.instruction-item {
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.instruction-img {
+}
+.instruction-desc {
+  font-family: var(--main-font-family);
+  color: var(--color-white);
+}
+
+.form-title {
+  font-family: var(--main-font-family);
+  color: var(--color-white);
+  font-size: 40px;
+  margin: 0;
+  & span {
+    color: var(--color-accent);
+  }
+}

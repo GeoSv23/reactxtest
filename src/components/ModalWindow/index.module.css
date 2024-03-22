@@ -1,0 +1,19 @@
+.modal-window {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 250px);
+  border: 1px solid;
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: var(--color-background);
+  color: var(--color-white);
+  display: none;
+}
+
+.modal-open {
+  display: flex;
+}

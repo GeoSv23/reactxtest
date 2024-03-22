@@ -3,17 +3,16 @@ import SectionGift from "./components/sectionGift/SectionGift";
 import "./root.css";
 import SectionWithForm from "./components/SectionWithForm/SectionWithForm";
 import SectionShop from "./components/sectionShop/SectionShop";
-import Header from "./components/Header/Header";
+import { Layout } from "./components/Layout/Layout";
 
 function App() {
   return (
-    <div className="wrapper">
-      <Header />
+    <Layout>
       <SectionPromo />
       <SectionGift />
       <SectionWithForm />
       <SectionShop />
-    </div>
+    </Layout>
   );
 }
 

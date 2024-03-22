@@ -1,8 +1,19 @@
-export default function CurrentCityBtn({ onClick }) {
+import styles from "../CurrentCityBtn/index.module.css";
+import cn from "classnames/bind";
+
+const cx = cn.bind(styles);
+
+export default function CurrentCityBtn({
+  onClick,
+  icon,
+  currentCity = "Moscow",
+}) {
   return (
-    <div className="current-city">
-      <img src="src\images\Location.png" alt="" />
-      <button onClick={onClick}>Москва</button>
+    <div className={cx("current-city-wrapper")}>
+      {icon && <img src={`src/images/${icon}`} alt="" />}
+      <button className={cx("current-city")} onClick={onClick}>
+        {currentCity}
+      </button>
     </div>
   );
 }

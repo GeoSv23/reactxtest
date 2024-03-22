@@ -1,3 +1,10 @@
+.cities-wrapper {
+  position: absolute;
+  background-color: var(--color-background);
+  height: 100%;
+  width: 100%;
+}
+
 .cities__items {
   display: flex;
   flex-wrap: wrap;
@@ -5,5 +12,5 @@
 }
 
 .cities__item {
-  width: 200px;
+  width: 280px;
 }

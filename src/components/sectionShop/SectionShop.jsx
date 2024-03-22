@@ -1,3 +1,4 @@
+import { Typography } from "../Typeography/Typography";
 import "../sectionShop/sectionShop.scss";
 
 export default function SectionShop() {
@@ -5,11 +6,11 @@ export default function SectionShop() {
     <section className="section tarif-desktop">
       <div className="tarif-desc">
         <h3 className="all-h3">Заходите на сайт Теле2</h3>
-        <p className="p">
+        <Typography variant="h3" className="p">
           Перейдите в&nbsp;магазин на&nbsp;страничку активации, введите ваш
           промокод. Готово! Теперь вы&nbsp;получите 1&nbsp;ТБ на&nbsp;ваш
           телефон при подключении тарифа &laquo;Мой онлайн+&raquo;.
-        </p>
+        </Typography>
 
         <a
           className="all-buttons change-tarif"
@@ -22,7 +23,7 @@ export default function SectionShop() {
       <div className="tarif-send">
         <img
           className="tarif-send__img"
-          src="src\images\Mask Group.png"
+          src="src/images/mobilePhone.png"
           alt="картинка с изображением телефоном"
         />
       </div>

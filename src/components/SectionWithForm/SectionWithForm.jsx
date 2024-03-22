@@ -1,10 +1,11 @@
 import FormNumber from "../formNumber/FormNumber";
 import "../SectionWithForm/sectionWithForm.scss";
+import { Typography } from "../Typeography/Typography";
 
 export default function SectionWithForm() {
   return (
     <>
-      <div className="section-promo">
+      <div className="section-form">
         <div className="promo-text">
           <h1 className="form-title">
             Несколько шагов
@@ -20,10 +21,10 @@ export default function SectionWithForm() {
               alt=""
               className="instruction-img"
             />
-            <p className="instruction-desc">
+            <Typography variant="h3" className="instruction-desc">
               Введите свой номер телефона, затем дождитесь промокода для
               получения ТБ
-            </p>
+            </Typography>
           </div>
           <div className="instruction-item">
             <img
@@ -31,20 +32,20 @@ export default function SectionWithForm() {
               alt=""
               className="instruction-img"
             />
-            <p className="instruction-desc">
+            <Typography variant="h3" className="instruction-desc">
               Перейдите в электронный магазин Tele2 и активируйте промокод при
               подключении тарифа «Мой Онлайн+»
-            </p>
+            </Typography>
           </div>
           <div className="instruction-item">
             <img
-              src="src\images\threeNumber.svg"
+              src="src\images\number3.svg"
               alt=""
               className="instruction-img"
             />
-            <p className="instruction-desc">
+            <Typography variant="h3" className="instruction-desc">
               Используйте свой подарочный ТБ от Tele2 в течение всего года
-            </p>
+            </Typography>
           </div>
         </div>
       </div>

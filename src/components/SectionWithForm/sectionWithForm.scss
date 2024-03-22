@@ -1,3 +1,7 @@
+.section-form {
+  display: flex;
+}
+
 .instruction-items {
   display: flex;
   flex-direction: column;
@@ -11,10 +15,10 @@
 }
 .instruction-img {
 }
-.instruction-desc {
-  font-family: var(--main-font-family);
-  color: var(--color-white);
-}
+// .instruction-desc {
+//   font-family: var(--main-font-family);
+//   color: var(--color-white);
+// }
 
 .form-title {
   font-family: var(--main-font-family);

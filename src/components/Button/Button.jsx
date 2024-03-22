@@ -1,18 +1,13 @@
-import { useState } from "react";
+import cn from "classnames/bind";
+import styles from "./index.module.scss";
+const cx = cn.bind(styles);
 
-export default function Button({ children, isActive, ...props }) {
+export const Button = ({ children, onClick, isActive, ...props }) => {
+  isActive;
   props;
-  isActive = false;
-  const [buttonActive, setButtonActive] = useState((isActive = false));
-  console.log(isActive);
   return (
-    <button
-      onClick={() => {
-        setButtonActive(!isActive);
-      }}
-      className={buttonActive ? "button active" : "button"}
-    >
+    <button onClick={onClick} className={cx("all-buttons")}>
       {children}
     </button>
   );
-}
+};

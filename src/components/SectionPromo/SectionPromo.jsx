@@ -26,7 +26,7 @@ export default function SectionPromo() {
             Тариф &laquo;Мой онлайн+&raquo; и 1 ТБ трафика в подарок для новых
             абонентов
           </Typography>
-          <Button>Принять участие</Button>
+          <Button>Принhять участие</Button>
         </div>
 
         <div className="promo-image">
